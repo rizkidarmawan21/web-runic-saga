@@ -32,7 +32,8 @@ nav .container-fluid .btn-download:hover {
 }
 
 .slider {
-  background: url("/assets/images/slider_bg.jpg");
+  /* background-image: url("..../../assets/images/slider_bg.jpg"); */
+  background-image: url("../../assets/images/slider_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -65,7 +66,7 @@ nav .container-fluid .btn-download:hover {
 
 .witch {
   margin-top: -14em !important;
-  background: url("/assets/images/witch_bg.png");
+  background-image: url("../../assets/images/witch_bg.png");
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,7 +93,7 @@ nav .container-fluid .btn-download:hover {
 .witch .video {
   width: 30em;
   height: 300px;
-  background: url("/assets/images/video-review.jpg");
+  background-image: url("../../assets/images/video-review.jpg");
   background-position: center;
   background-size: cover;
   border: 5px solid #54168d;
@@ -121,7 +122,7 @@ nav .container-fluid .btn-download:hover {
 .team {
   margin-top: -5em !important;
   margin-top: -5em !important;
-  background: url("/assets/images/team_bg.png");
+  background-image: url("../../assets/images/team_bg.png");
   /* background-position: center; */
   background-size: cover;
   position: relative;
@@ -150,7 +151,7 @@ nav .container-fluid .btn-download:hover {
 
 .pet {
   margin-top: -7em !important;
-  background: url("/assets/images/pet_bg.png");
+  background-image: url("../../assets/images/pet_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -178,7 +179,7 @@ nav .container-fluid .btn-download:hover {
 }
 
 .mobs {
-  background: url("/assets/images/mobs_bg.png");
+  background-image: url("../../assets/images/mobs_bg.png");
   background-size: cover;
   position: relative;
   margin-top: -5em !important;
@@ -207,7 +208,7 @@ nav .container-fluid .btn-download:hover {
 }
 
 .battle {
-  background: url("/assets/images/arena_bg.png");
+  background-image: url("../../assets/images/arena_bg.png");
   background-size: cover;
   position: relative;
   margin-top: -5em !important;
@@ -263,7 +264,7 @@ nav .container-fluid .btn-download:hover {
   .witch .video {
     width: 20em;
     height: 200px;
-    background: url("/assets/images/video-review.jpg");
+    background-image: url("../../assets/images/video-review.jpg");
     background-position: center;
     background-size: cover;
     border: 5px solid #54168d;

@@ -1,0 +1,348 @@
+nav .navbar-brand {
+  padding-left: 7em;
+  /* padding-right: 10em; */
+}
+
+nav .container-fluid .btn-sign-in {
+  font-weight: bold;
+  /* margin-right: 10px; */
+  background-color: black;
+  margin-top: -20px !important;
+  margin-bottom: -8px !important;
+  margin-right: -6px !important;
+  height: 100px;
+}
+
+nav .container-fluid .btn-sign-in:hover {
+  background-color: rgba(0, 0, 0, 0.829);
+}
+
+nav .container-fluid .btn-download {
+  background-color: rgb(255, 191, 0);
+  margin-top: -20px !important;
+  margin-bottom: -8px !important;
+  margin-right: -12px !important;
+  height: 100px;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+nav .container-fluid .btn-download:hover {
+  background-color: rgba(255, 191, 0, 0.776);
+}
+
+.slider {
+  background: url("/assets/images/slider_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider .hero-slider {
+  width: 90%;
+}
+
+.slider .logo-frond {
+  margin-top: 5em;
+  width: 70%;
+}
+.slider .btn-play {
+  background-color: black;
+  color: white;
+  border-radius: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid #54168d;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.1;
+}
+.slider .btn-play:hover {
+  background-color: rgb(7, 7, 7);
+  color: white;
+}
+
+.witch {
+  margin-top: -14em !important;
+  background: url("/assets/images/witch_bg.png");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.witch .witch-content-left {
+  padding-top: 50px;
+}
+.witch h1 {
+  font-size: 5em;
+  color: white;
+  text-shadow: -4px 0px 19px rgba(105, 35, 149, 0.6);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.witch p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.witch .video {
+  width: 30em;
+  height: 300px;
+  background: url("/assets/images/video-review.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 5px solid #54168d;
+}
+
+.witch .video .play-video {
+  background-color: #18102881;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1;
+}
+
+.witch .video .play-video img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1;
+}
+
+.witch .video-mobile {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1;
+}
+
+.team {
+  margin-top: -5em !important;
+  margin-top: -5em !important;
+  background: url("/assets/images/team_bg.png");
+  /* background-position: center; */
+  background-size: cover;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.team .team-content-left {
+  margin-top: 100px;
+}
+.team .team-content-right {
+  margin-top: 50px;
+}
+
+.team .team-content-left h1 {
+  font-size: 5em;
+  color: #54168d;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.team .team-content-left p {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.pet {
+  margin-top: -7em !important;
+  background: url("/assets/images/pet_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.pet .col-md-6 img {
+  position: relative;
+  margin-top: -10rem !important;
+}
+
+.pet h1 {
+  margin-top: 50px;
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+  text-shadow: -4px 0px 19px rgba(105, 35, 149, 0.6);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pet p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mobs {
+  background: url("/assets/images/mobs_bg.png");
+  background-size: cover;
+  position: relative;
+  margin-top: -5em !important;
+}
+
+.mobs img {
+  position: relative;
+  margin-top: -7em !important;
+}
+
+.mobs h1 {
+  margin-top: 50px;
+  font-size: 5em;
+  font-weight: bold;
+  color: black;
+  text-shadow: -4px 0px 19px rgb(0, 234, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mobs p {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-shadow: -4px 0px 19px rgb(0, 234, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.battle {
+  background: url("/assets/images/arena_bg.png");
+  background-size: cover;
+  position: relative;
+  margin-top: -5em !important;
+}
+
+.battle h1 {
+  margin-top: 100px;
+  font-size: 5em;
+  color: #54168d;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.battle p {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.battle .btn-play {
+  background-color: black;
+  color: white;
+  border-radius: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid #54168d;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.1;
+}
+
+/* Responsive */
+
+@media (max-width: 769px) {
+  .slider .slider-content-right {
+    margin-top: -25em !important;
+  }
+  .slider .logo-frond {
+    margin-top: 10em;
+    width: 50%;
+  }
+
+  .slider .btn-play {
+    margin-bottom: 100px;
+  }
+
+  .witch .witch-content-left {
+    position: relative;
+  }
+
+  .witch .video {
+    width: 20em;
+    height: 200px;
+    background: url("/assets/images/video-review.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #54168d;
+  }
+
+  .witch .witch-content-right {
+    margin-top: -30em !important;
+  }
+
+  .witch {
+    background-position: center;
+    margin-top: -10em !important;
+  }
+
+  .witch h1 {
+    text-align: center;
+  }
+
+  .witch p {
+    text-align: center;
+  }
+
+  .team {
+    background-position: center;
+    padding-bottom: 300px;
+  }
+
+  .team .team-content-right {
+    margin-top: -10em !important;
+  }
+  .team .team-content-left {
+    position: relative;
+  }
+  .team .team-content-left h1,
+  p {
+    text-align: center;
+  }
+
+  .pet .col-md-6 img {
+    left: 30px;
+  }
+
+  .pet h1 {
+    text-align: center;
+  }
+
+  .mobs {
+    background-position: center;
+  }
+
+  .mobs h1,
+  p {
+    text-align: center;
+  }
+
+  .mobs .mobs-left {
+    position: relative;
+  }
+
+  .mobs img {
+    position: static;
+  }
+
+  .battle {
+    background-position: center;
+  }
+
+  .battle h1 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .battle p {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .battle .col-md-6 {
+    text-align: center;
+  }
+}
